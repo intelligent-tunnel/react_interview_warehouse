@@ -1,6 +1,8 @@
 # react_interview_warehouse
 用于React的面试仓库
 
+前言：时间大约为45分钟
+
 Todo List
 
 1:你需要在这个仓库里面推送一个Arco Design Pro 开源框架项目：https://arco.design/docs/pro/start 组件库：https://arco.design/react/components/table
