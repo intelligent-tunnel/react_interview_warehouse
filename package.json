@@ -1,0 +1,25 @@
+{
+  "name": "react-interview-warehouse",
+  "version": "1.0.0",
+  "description": "React Interview Warehouse with Arco Design",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@arco-design/web-react": "^2.32.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.1.0",
+    "typescript": "^4.5.2",
+    "vite": "^2.6.14"
+  }
+}
