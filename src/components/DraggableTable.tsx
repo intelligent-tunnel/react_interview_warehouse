@@ -243,9 +243,10 @@ const DraggableTable: React.FC = () => {
         dataSource={data}
         components={components}
         onRow={(record, index) => ({
-          index,
+          index: index as number,
           moveRow,
         })}
+        rowKey="key"
         pagination={{
           pageSize: 10,
           showTotal: (total, range) => `第 ${range[0]}-${range[1]} 条，共 ${total} 条`,
